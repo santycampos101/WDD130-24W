@@ -41,6 +41,7 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    text-align: center;
 }
 
 #hero-box {
@@ -73,7 +74,7 @@ main section{
 }
 
 .rivers-card, .camping-card, .rapids-card {
-   margin: 200px 0;
+   margin: 50px 0;
 }
 
 .book, .join {
@@ -189,23 +190,13 @@ nav a {
 nav a:hover {
     background-color: black;
 }
- .join:hover,
-#background,
-.msg,
-footer {
-    background-color: grey;
-    padding: 25px 50px;
-    margin-top: 200px; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
+
 
 nav a,
 nav a:hover,
 .home-title,
 h4,
-.book,
 .book:hover, .join:hover,
 .msg h2,
 .msg p,
@@ -228,9 +219,9 @@ a{
 }    
 
 footer {
-    margin-top: 200px;
-    padding: 25px, 50px;
-    margin-top: 200px; 
+    background-color: grey;
+    padding: 25px 50px;
+    margin-top: 50px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -245,8 +236,7 @@ footer p {
 } 
 footer p a:hover {
     text-decoration: underline;
-}  
-nav{background-color: rgb(163, 163, 163);}      
+}        
 
 #hero-box, #hero-img{
 
@@ -281,7 +271,7 @@ nav{background-color: rgb(163, 163, 163);}
         font-size: 25px;
     }
     .rivers-card, .camping-card, .rapids-card { 
-        margin: 200px auto;
+        margin: 50px auto;
         width: 60%;
     }
     #background {
