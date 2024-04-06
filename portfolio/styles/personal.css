@@ -75,9 +75,27 @@ nav a:hover {
     justify-content: space-between;
 }
 
+
+
 #subtext {
     padding: 50px;
 }
 
 /* Subpage 2 */
 
+#securityimage {
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+
+}
+
+footer {
+    background-color: lightgrey;
+}
